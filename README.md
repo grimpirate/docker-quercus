@@ -2,7 +2,7 @@
 ## Build
 docker build -t quercus .
 ## Run
-docker run -dp 80:80 -i undertow
+docker run -dp 80:80 -i quercus
 ## Prune
 docker system prune -a  
 docker builder prune  
